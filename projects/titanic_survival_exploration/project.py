@@ -111,7 +111,7 @@ predictions = predictions_2(data)
 print(accuracy_score(outcomes, predictions))
 
 
-vs.survival_stats(data, outcomes, 'Age', ["Sex == 'male'", "Pclass == 3"])
+vs.survival_stats(data, outcomes, 'Age', ["Sex == 'male'", "Pclass == 2"])
 
 
 def predictions_3(data):
